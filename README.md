@@ -1,6 +1,7 @@
-This document is not finalized yet.
+This document is not finalized yet.  We're still working on the rules, policies and mechanisms.
+
 # Zper Service Prototype (ZperLight)
-zperLight is a service with ethereum based contracts. All participants in Zper eco system can use this service.
+zperLight is a lending service with ethereum based contracts. All participants in Zper eco system can use this service.
 Publishers(P2PL, Robo Advisor) can deploy BondSale contract and PLBT contract. (All participants can obtain publisher autorization after proper assessment)
 
 
