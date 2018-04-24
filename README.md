@@ -4,7 +4,7 @@
 zper service prototype with Ethereum smart-contract.
 
 ## zperi
-All information regarding transaction between block chain nodes are non-counterfeitable. ZPER can engrave the distinct activities within the ZPER network into each transaction and through this, make high value profiles of each participant with 0% possibility of flaw.
+All information regarding transaction between block chain nodes are non-counterfeitable. ZPER can engrave the distinct activities within the ZPER network into each transaction and through this, make high value profiles of each participant with ZeroPERcent possibility of flaw.
 
 Borrowers in the ZPER network create transactions such as loan application and payment, and consistent repayment they can increase their credit level. P2P company can be evaluated on their abilities as a business and on their risk management skills through recording of all the transactions.
 
