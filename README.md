@@ -1,7 +1,7 @@
 # zpr
 
 ## zperlight
-zper service prototype with Ethereum smart-contract.
+zper lending service prototype with Ethereum smart-contract.
 
 ## zperi
 All information regarding transaction between block chain nodes are non-counterfeitable. ZPER can engrave the distinct activities within the ZPER network into each transaction and through this, make high value profiles of each participant with ZeroPERcent possibility of flaw.
