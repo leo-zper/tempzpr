@@ -1,9 +1,13 @@
 pragma solidity ^0.4.21;
+
 import "./ZperToken.sol";
 import "./PLBT.sol";
 import "./AccountManager.sol";
+import "./library/SafeMath.sol";
 
 contract BondSale {
+
+	using SafeMath for uint256;
 
 	address	public	owner;
 	PLBT			plbt;

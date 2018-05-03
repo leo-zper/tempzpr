@@ -1,6 +1,10 @@
 pragma solidity ^0.4.21;
 
+import "./library/SafeMath.sol";
+
 contract PLBT {
+
+	using SafeMath for uint256;
 
 	address public owner;
 	uint256 public totalSupply;
@@ -51,19 +55,19 @@ contract PLBT {
 	}
 
 	function transfer(address _to, uint256 _value) public returns (bool) {
-		require(balances[msg.sender] >= _value && balances[_to] + _value > balances[_to]);
-		balances[msg.sender] -= _value;
-		balances[_to] += _value;
+		require(_to != address(0));
+		require(balances[msg.sender] >= _value);
+		balances[msg.sender] = balances[msg.sender].sub(_value);
+		balances[_to] = balances[_to].add(_value);
 		emit Transfer(msg.sender, _to, _value);
 		return true;
 	}
 
 	function transferFrom(address _from, address _to, uint256 _value) public returns (bool) {
-		require(balances[_from] >= _value && allowed[_from][msg.sender] >= _value
-			   	&& balances[_to] + _value > balances[_to]);
-		balances[_to] += _value;
-		balances[_from] -= _value;
-		allowed[_from][msg.sender] -= _value;
+		require(balances[_from] >= _value && allowed[_from][msg.sender] >= _value);
+		balances[_to] = balances[_to].add(_value);
+		balances[_from] = balances[_from].sub(_value);
+		allowed[_from][msg.sender] = allowed[_from][msg.sender].sub(_value);
 		emit Transfer(_from, _to, _value);
 		return true;
 	}
