@@ -1,4 +1,4 @@
-This document is not finalized yet.  We're still working on the rules, policies and mechanisms.
+This document and codes in this repository are not finalized yet.  We're still working on the rules, policies and mechanisms.
 
 # Zper Service Prototype (ZperLight)
 zperLight is a lending service with ethereum based contracts. All participants in Zper eco system can use this service.
