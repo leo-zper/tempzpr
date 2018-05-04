@@ -36,11 +36,13 @@ contract MultiSig {
 		minimum = _minimum;
 		holder = msg.sender;
 		votedFor = 1;
+		cosigner[msg.sender] = false;
 		emit SignRequest(msg.sender, _cosigner, _minimum);
 	}
 
 	function voteFor() onlyCosigner public returns(bool) {
 		votedFor++;
+		cosigner[msg.sender] = false;
 	}
 
 	// must be included in transaction function's end
