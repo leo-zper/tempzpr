@@ -29,7 +29,9 @@ Accounts types are as follows.
 
 ### Functions
 register accounts in zper eco system
+
 verify accounts in zper eco system
+
 delete accounts
 
 ### Policies
