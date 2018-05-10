@@ -48,7 +48,17 @@ Publishers publish PLBT contract and BondSale contract. When PLBT is linked to S
 
 Sale contract have to be linked with Zper token, AccountManager contract and PLBT contract when it's deployed. Otherwise ot won't work properly.
 
-### Basic Functions
+### Key Transactions
+- apply for a loan: borrowers to publishers
+- accept or reject: publishers to borrowers
+- return of a loan: borrowers to publishers
+- invest: lenders to publishers
+- claim investment: lenders to publishers
+- publish crowd sale: publishers
+- close crowd sale: publishers
+- buy NPL: backups to publishers
+
+### Functions
 ZPR, ETH transaction handling
 exchange rate calculation
 crypto currency forwarding
@@ -58,12 +68,12 @@ check fund raised by backup players
 basic information getter
 
 ### Borrower IF
-apply for loan
-return loan
+apply
+return
 
 ### Lender IF
 invest
-claim return
+claim
 
 ### Publisher IF
 #### Sale managing
