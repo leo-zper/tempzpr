@@ -59,11 +59,11 @@ Sale contract have to be linked with Zper token, AccountManager contract and PLB
 - buy NPL: backups to publishers
 
 ### Functions
-ZPR, ETH transaction handling
-exchange rate calculation
-crypto currency forwarding
-check fund raised by lenders
-check fund raised by backup players
+ZPR, ETH transaction handling,
+exchange rate calculation,
+crypto currency forwarding,
+check fund raised by lenders,
+check fund raised by backup players,
 
 basic information getter
 
