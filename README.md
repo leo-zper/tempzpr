@@ -28,18 +28,16 @@ Accounts types are as follows.
 - Borrower		: lend zpr or eth from bond sale
 
 ### Functions
-register accounts in zper eco system
-
-verify accounts in zper eco system
-
-delete accounts
+register accounts in zper eco system<br />
+verify accounts in zper eco system<br />
+delete accounts<br />
 
 ### Policies
-Assigning and firing council members are decided by a vote from all council members.
-Owner can run assigning and firing function. Ownership can be transferred.
+Assigning and firing council members are decided by a vote from all council members.<br />
+Owner can run assigning and firing function. Ownership can be transferred.<br />
 
-Council member can register publishers.
-Council member can delete any kinds of accounts.
+Council member can register publishers.<br />
+Council member can delete any kinds of accounts.<br />
 
 All participants can register themselves as a Borrower, Lender, NPL Buyer or Guardian.
 
@@ -68,12 +66,12 @@ check fund raised by backup players,
 basic information getter
 
 ### Borrower IF
-apply
-return
+apply<br />
+return<br />
 
 ### Lender IF
-invest
-claim
+invest<br />
+claim<br />
 
 ### Publisher IF
 #### Sale managing
