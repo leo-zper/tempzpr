@@ -75,14 +75,14 @@ claim<br />
 
 ### Publisher IF
 #### Sale managing
-set rates and interest
-change sale stages
-auto registration(TBD)
-desposit for publication
+set rates and interest<br />
+change sale stages<br />
+auto registration(TBD)<br />
+desposit for publication<br />
 
 ### BackUps IF
-promise to buy NPL (with deposit?)
-promise to assure guardian service (with deposit?)
+promise to buy NPL (with deposit?)<br />
+promise to assure guardian service (with deposit?)<br />
 
 
 ## PLBT Template for Zper Service 
